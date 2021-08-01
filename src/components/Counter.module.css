@@ -1,0 +1,40 @@
+.container, .button_group{
+    border: 3px solid #61dafb;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto auto;
+}
+.container{
+    width: 195px;
+}
+.button_group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    margin-top: 10px;
+}
+.value{
+    display: flex;
+    justify-content: center;
+    background-color: #61dafb;
+    border-radius: 5px;
+    padding: 10px;
+    color: #282c34;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+button{
+    background-color: #61dafb;
+    border: 1px solid #282c34;
+    border-radius: 5px;
+    color: #282c34;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.stop{
+    opacity: 0.5;
+}
+.stop_span{
+    color: red;
+}
