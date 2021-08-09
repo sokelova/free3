@@ -17,7 +17,7 @@
 .value{
     display: flex;
     justify-content: center;
-    background-color: #61dafb;
+    background-color: green;
     border-radius: 5px;
     padding: 10px;
     color: #282c34;
